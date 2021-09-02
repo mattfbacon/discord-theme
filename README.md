@@ -14,3 +14,7 @@ In a more narrow view the sidebar collapses:
 make
 # the compiled theme is now at dist/theme.css
 ```
+
+## Known Issues
+
+Due to being hard-coded with a ton of JS animations, server folders kind of just don't work.
