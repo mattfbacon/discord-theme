@@ -1,0 +1,9 @@
+{
+	"name": "MattsCord",
+	"description": "Noctis Lux Copy",
+	"version": "0.1",
+	"author": "mattf_#6820",
+	"theme": "dist/theme.css",
+	"consent": ["ext_listing"],
+	"license": "AGPL-3.0-or-later"
+}
