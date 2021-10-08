@@ -32,7 +32,7 @@
 }
 
 .wrapper-sa6paO {
-	transform: translateY(11px) rotate(90deg) translateX(1px);
+	transform: translateY(-1px) rotate(90deg) translateX(1px);
 	transform-origin: 36px 24px;
 }
 
@@ -359,8 +359,13 @@
 	}
 
 	.scroller-1Bvpku {
-		& > div[aria-label="Servers"] > div:first-child {
-			margin-left: auto;
+		& > div[aria-label="Servers"] {
+			& > div:first-child {
+				margin-left: auto;
+			}
+			& > div:last-child {
+				margin-right: auto;
+			}
 		}
 
 		& > div:nth-child(2) {
@@ -520,5 +525,9 @@
 
 	.previewContainer-1KQDJS .theme-light {
 		--background-primary: #ffffff;
+	}
+
+	.listItem-1hlISG {
+		margin: 0;
 	}
 }
