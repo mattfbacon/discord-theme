@@ -148,6 +148,12 @@
 
 	--button-color: rgb(0, 153, 173);
 	--button-color-hover: rgba(0, 153, 173, 0.5);
+
+	--toast-background: var(--background-primary) !important;
+	--toast-header: var(--background-secondary) !important;
+	--toast-contents: var(--background-primary) !important;
+	--toast-box-shadow: rgba(0, 0, 0, 0.1) !important;
+	--toast-border: var(--background-tertiary) !important;
 }
 
 .messageContent-2qWWxC {
@@ -685,5 +691,10 @@
 		[style*="color: rgb(79, 84, 92);"] {
 			color: var(--text-normal) !important;
 		}
+	}
+
+	.powercord-toast .header {
+		box-shadow: none;
+		border-bottom: 1px solid var(--toast-border);
 	}
 }
