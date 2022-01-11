@@ -74,6 +74,88 @@
 	--focus-primary: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%);
 }
 
+.theme-dark {
+	--header-primary: rgb(136, 132, 119);
+	--header-secondary: var(--header-primary);
+	--text-normal: #c5cdd3;
+	--text-muted: var(--header-primary);
+	--text-link: var(--button-color);
+	--text-link-low-saturation: var(--button-color);
+	--text-positive: #00b368;
+	--text-warning: #a88c00;
+	--text-danger: #e64100;
+	--interactive-normal: rgb(136, 132, 119);
+	--interactive-hover: var(--channels-default);
+	--interactive-active: var(--channels-default);
+	--interactive-muted: rgba(168, 162, 143, 0.67);
+	--background-primary: #1b2932;
+	--background-secondary: #17232b;
+	--background-secondary-alt: var(--background-secondary);
+	--background-tertiary: #0f191f;
+	--background-accent: #424242;
+	--background-floating: var(--background-primary);
+	// --background-mobile-primary: #f8f9f9;
+	// --background-mobile-secondary: #fff;
+	--background-modifier-hover: rgba(116, 127, 141, 0.08);
+	--background-modifier-active: rgba(116, 127, 141, 0.16);
+	--background-modifier-selected: rgba(116, 127, 141, 0.24);
+	--background-modifier-accent: rgba(6, 6, 7, 0.08);
+	--info-positive-text: #000;
+	--info-warning-text: #000;
+	--info-danger-text: #000;
+	--info-help-background: hsla(212, calc(var(--saturation-factor, 1) * 100%), 43.9%, 0.1);
+	--info-help-foreground: hsl(212, calc(var(--saturation-factor, 1) * 100%), 43.9%);
+	--info-help-text: #000;
+	--status-warning-text: #fff;
+	--scrollbar-thin-thumb: var(--background-tertiary);
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: var(--background-tertiary);
+	--scrollbar-auto-track: var(--background-secondary);
+	--scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
+	--scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
+	--elevation-stroke: 0 0 0 1px rgba(6, 6, 7, 0.08);
+	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025),
+		0 2px 0 rgba(6, 6, 7, 0.025);
+	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
+	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.16);
+	--logo-primary: hsl(227, calc(var(--saturation-factor, 1) * 58.4%), 65.1%);
+	--control-brand-foreground-new: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%, 0.1);
+	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%, 0.2);
+	--background-message-hover: rgba(6, 6, 7, 0.02);
+	--channels-default: #6a7480;
+	--guild-header-text-shadow: 0 1px 1px hsla(0, 0%, 100%, 0.4);
+	--channeltextarea-background: var(--background-secondary);
+	--activity-card-background: var(--background-primary);
+	--textbox-markdown-syntax: #6a7480;
+	--deprecated-card-bg: var(--background-secondary);
+	--deprecated-card-editable-bg: var(--background-secondary);
+	--deprecated-store-bg: var(--background-secondary);
+	--deprecated-quickswitcher-input-background: var(--background-primary);
+	--deprecated-quickswitcher-input-placeholder: rgba(79, 84, 92, 0.3);
+	--deprecated-text-input-bg: rgba(79, 84, 92, 0.02);
+	--deprecated-text-input-border: rgba(79, 84, 92, 0.3);
+	--deprecated-text-input-border-hover: #b9bbbe;
+	--deprecated-text-input-border-disabled: #dcddde;
+	--deprecated-text-input-prefix: #b9bbbe;
+
+	--brand-experiment: rgb(0, 153, 173) !important;
+	--brand-experiment-560: var(--button-color-hover);
+	--brand-experiment-530: var(--button-color);
+	--brand-experiment-05a: rgba(0, 153, 153, 0.05);
+	--brand-experiment-15a: rgba(0, 153, 153, 0.15);
+	--control-brand-foreground: rgba(0, 153, 173, 0.9);
+
+	--button-color: rgb(0, 153, 173);
+	--button-color-hover: rgba(0, 153, 173, 0.5);
+
+	--toast-background: var(--background-primary) !important;
+	--toast-header: var(--background-secondary) !important;
+	--toast-contents: var(--background-primary) !important;
+	--toast-box-shadow: rgba(0, 0, 0, 0.1) !important;
+	--toast-border: var(--background-tertiary) !important;
+}
+
 .theme-light {
 	--header-primary: rgb(136, 132, 119);
 	--header-secondary: var(--header-primary);
